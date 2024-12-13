@@ -5,6 +5,7 @@ import {
 import Home from "../Pages/Home";
 import Root from "../Layout/Root";
 import Register from "../Pages/Register";
+import SignIn from './../Pages/SignIn';
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: '/register',
         element: <Register></Register>,
+      },
+      {
+        path: '/signIn',
+        element: <SignIn></SignIn>,
       },
 
     ]
